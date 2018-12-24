@@ -6,7 +6,7 @@
      * Colors
      */
     --white: #ffffff;
-    --black: #ffffff;
+    --black: #000;
     --primary-color: #e74c3c;
     --secondary-color: #ccddee;
     --success-color: green;
@@ -90,5 +90,5 @@ a {
 }
 a:hover, a:focus {
   text-decoration: underline;
-  color: var(--link-hover-color);
+  filter: brightness(70%);
 }
